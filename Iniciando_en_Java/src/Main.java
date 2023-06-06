@@ -20,6 +20,53 @@ public class Main {
         return a + b + c;
     }
 
+    public static void numeroIfFunc(int numeroIf) {
+        if (numeroIf > 0) {
+            System.out.println("El número es positivo");
+        } else if (numeroIf < 0) {
+            System.out.println("El número es negativo");
+        } else {
+            System.out.println("El número es igual a cero");
+        }
+    }
+
+    public static void hasta3() {
+        int numeroWhile = 0; // Valor inicial de la variable
+        while (numeroWhile < 3) {
+            numeroWhile++; // Incrementa el valor de la variable en uno
+            System.out.println(numeroWhile); // Muestra el valor por pantalla
+        }
+    };
+
+    public static void bulce3() {
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println(numeroFor); // Muestra el valor por pantalla
+        }
+    }
+
+    public static void Estacion() {
+        String estacion = "verano"; // Puedes cambiar el valor de la variable aquí
+
+        switch (estacion) {
+            case "primavera":
+                System.out.println("Es primavera.");
+                break;
+            case "verano":
+                System.out.println("Es verano.");
+                break;
+            case "otoño":
+                System.out.println("Es otoño.");
+                break;
+            case "invierno":
+                System.out.println("Es invierno.");
+                break;
+            default:
+                System.out.println("El valor de la variable no corresponde a una estación.");
+                break;
+        }
+    }
+    // Switch
+
 }
 
 class Coche {
